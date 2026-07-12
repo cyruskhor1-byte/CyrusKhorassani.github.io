@@ -233,6 +233,16 @@
                     <img src="covid/COVIDimages/covidimage2.jpg" alt="مقاله ۱" />
                 </a>
                 </div>
+
+
+                 <div class="article-container">
+
+                <a href="intl/intlarticles/new-world-screwworm-spread-us-eradicate.html" class="article">
+                    <h2>بازگشت اسکرو ورم دنیای جدید به تگزاس و نیومکزیکو؛ تلاش‌ها برای مهار یک آفت خطرناک</h2>
+                    <p></p>
+                    <img src="intl/intlimages/screwwormimage.jpg" alt="مقاله ۱" />
+                </a>
+                </div>
                 </div>
         <!-- Add more article cards as needed -->
 
@@ -246,7 +256,7 @@
     
         // Format the date as desired
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        const formattedDate = currentDate.toLocaleDateString('fa-IR', options);
+        const formattedDate = currentDate.toLocaleDateString('fa-IR-u-ca-gregory', options);
     
         // Update the content of the current-date span
         document.getElementById('current-date').textContent = formattedDate;
